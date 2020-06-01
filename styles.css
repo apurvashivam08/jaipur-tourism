@@ -1,0 +1,158 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	background-color: #FF87AB;
+}
+.bgimg1{
+	background-image: url('bgimg.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 680px;
+}
+.brand{
+	font-weight: bolder;
+	font-size: 40px;
+}
+.top{
+	background-image: linear-gradient(to right, #FF87AB, #FF3370);
+}
+nav .navbar-nav li a{
+  	color: #fff;
+  	font-weight: bolder;
+  	margin: 10px;
+}
+.nav-link:hover{
+     color: blue;
+
+}
+nav .navbar-brand{
+	color: #fff !important;
+  	font-weight: bolder;
+}
+.headerset{
+	padding-top: 10%;
+
+}
+.headerset h2{
+	font-size: 200%;
+	font-weight: bolder;
+}
+.headerset h1{
+	font-size: 250%;
+	font-weight: bolder;
+}
+.h1{
+	font-size: 250%;
+	font-weight: bolder;
+	color: #ff0e6f;
+	text-decoration: underline;
+}
+/*attractions*/
+#attraction{
+	background-image: linear-gradient(to right, #ff0e6f, #FF3370);
+	padding: 3%; 
+}
+.at-h1{
+	font-weight: bolder;
+	margin-bottom: 30px;
+	color: #fff;
+}
+/*packages*/
+.bgimg2{
+	background-image: url('bgimg2.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 680px;
+}
+#packages{
+	text-align: center;
+}
+.card-p{
+	padding: 3% 10% 10%;
+}
+.card-b{
+	padding: 3% 5%;
+}
+.card{
+	background-color: #FF87AB;
+}
+.pc-h1{
+	font-weight: bolder;
+	padding-top: 2%;
+	color: #fff;
+}
+.ani{
+	overflow: hidden;
+}
+.ani img{
+	transition: all 1.5s ease;
+}
+.ani:hover img{
+	transform: scale(1.5);
+}
+
+/*services*/
+.feature-box{
+	text-align: center;
+	padding: 3%;
+}
+#services{
+	background-image: linear-gradient(to right, #ff0e6f, #FF3370);
+
+}
+.services{
+	padding: 6% 1%;
+}
+.fas{
+	padding-bottom: 8%;
+}
+.fas:hover{
+	color: #FF87AB; 
+}
+
+/*footer*/
+.ft{
+	font-weight: bolder;
+	font-size: 55px;
+}
+#footer{
+	background-image: linear-gradient(to right, #FF87AB, #FF3370);
+	padding: 8% 2%;
+}
+.social-icon{
+	margin: 20px 15px;
+	color: #fff;
+}
+.social-icon:hover, .ft-a:hover{
+	color: #cad2c5;
+}
+/*media queries*/
+@media (max-width: 690px){
+	.headerset h2{
+		font-size: 120%;
+	}
+	.headerset h1{
+		font-size: 170%;
+	}
+	.h1{
+		font-size: 170%;
+	}
+	.bgimg1{
+		height: 80%;
+	}
+	.bgimg2{
+		height: 300%;
+	}
+
+}
+@media (max-width: 995px)
+{
+	.bgimg2{
+		height: 200%;
+	}
+}
